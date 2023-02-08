@@ -30,7 +30,7 @@ namespace Inheritance_datetime_Task
             Bicycle[] bikeArr = new Bicycle[] { bike, bike2, bike3 };
             for (int i = 0; i < carsArr.Length; i++)
             {
-                carsArr[i].ShowInfo();
+                bikeArr[i].ShowInfo();
             }
 
             #endregion
@@ -43,7 +43,6 @@ namespace Inheritance_datetime_Task
             //ve yeni tarixi console penceresinde gun - ay - il seklinde gosterin
 
             DateTime date;
-
             Console.WriteLine("\nPlease enter date:");
             date = Convert.ToDateTime(Console.ReadLine());
             Console.WriteLine("Please enter Years:");
